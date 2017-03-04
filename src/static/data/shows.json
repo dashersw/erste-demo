@@ -1,0 +1,752 @@
+[
+  {
+    "_id": "tt0944947",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/1395.79.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/1395.79.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/1395.79.jpg"
+    },
+    "imdb_id": "tt0944947",
+    "last_updated": 1417660036200,
+    "num_seasons": 4,
+    "slug": "game-of-thrones",
+    "title": "Game of Thrones",
+    "tvdb_id": "121361",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0903747",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/126.54.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/126.54.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/126.54.jpg"
+    },
+    "imdb_id": "tt0903747",
+    "last_updated": 1417658659632,
+    "num_seasons": 5,
+    "slug": "breaking-bad",
+    "title": "Breaking Bad",
+    "tvdb_id": "81189",
+    "year": "2008"
+  },
+  {
+    "_id": "tt0898266",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/34.69.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/34.69.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/34.69.jpg"
+    },
+    "imdb_id": "tt0898266",
+    "last_updated": 1417658646998,
+    "num_seasons": 8,
+    "slug": "the-big-bang-theory",
+    "title": "The Big Bang Theory",
+    "tvdb_id": "80379",
+    "year": "2007"
+  },
+  {
+    "_id": "tt1520211",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/124.39.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/124.39.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/124.39.jpg"
+    },
+    "imdb_id": "tt1520211",
+    "last_updated": 1417584709791,
+    "num_seasons": 5,
+    "slug": "the-walking-dead",
+    "title": "The Walking Dead",
+    "tvdb_id": "153021",
+    "year": "2010"
+  },
+  {
+    "_id": "tt0773262",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/97.18.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/97.18.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/97.18.jpg"
+    },
+    "imdb_id": "tt0773262",
+    "last_updated": 1417659297267,
+    "num_seasons": 8,
+    "slug": "dexter",
+    "title": "Dexter",
+    "tvdb_id": "79349",
+    "year": "2006"
+  },
+  {
+    "_id": "tt0460649",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/48.45.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/48.45.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/48.45.jpg"
+    },
+    "imdb_id": "tt0460649",
+    "last_updated": 1417660822029,
+    "num_seasons": 9,
+    "slug": "how-i-met-your-mother",
+    "title": "How I Met Your Mother",
+    "tvdb_id": "75760",
+    "year": "2005"
+  },
+  {
+    "_id": "tt1475582",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/178.11.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/178.11.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/178.11.jpg"
+    },
+    "imdb_id": "tt1475582",
+    "last_updated": 1417584483586,
+    "num_seasons": 3,
+    "slug": "sherlock",
+    "title": "Sherlock",
+    "tvdb_id": "176941",
+    "year": "2010"
+  },
+  {
+    "_id": "tt1119644",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/87.13.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/87.13.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/87.13.jpg"
+    },
+    "imdb_id": "tt1119644",
+    "last_updated": 1417659981964,
+    "num_seasons": 5,
+    "slug": "fringe",
+    "title": "Fringe",
+    "tvdb_id": "82066",
+    "year": "2008"
+  },
+  {
+    "_id": "tt2193021",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/16327.19.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/16327.19.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/16327.19.jpg"
+    },
+    "imdb_id": "tt2193021",
+    "last_updated": 1417658636924,
+    "num_seasons": 3,
+    "slug": "arrow",
+    "title": "Arrow",
+    "tvdb_id": "257655",
+    "year": "2012"
+  },
+  {
+    "_id": "tt1796960",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/10369.24.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/10369.24.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/10369.24.jpg"
+    },
+    "imdb_id": "tt1796960",
+    "last_updated": 1417660728936,
+    "num_seasons": 4,
+    "slug": "homeland",
+    "title": "Homeland",
+    "tvdb_id": "247897",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0411008",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/234.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/234.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/234.jpg"
+    },
+    "imdb_id": "tt0411008",
+    "last_updated": 1417661754589,
+    "num_seasons": 5,
+    "slug": "lost",
+    "title": "Lost",
+    "tvdb_id": "73739",
+    "year": "2004"
+  },
+  {
+    "_id": "tt0412142",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/71.8.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/71.8.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/71.8.jpg"
+    },
+    "imdb_id": "tt0412142",
+    "last_updated": 1417660789664,
+    "num_seasons": 7,
+    "slug": "house",
+    "title": "House",
+    "tvdb_id": "73255",
+    "year": "2004"
+  },
+  {
+    "_id": "tt1442437",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/2.19.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/2.19.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/2.19.jpg"
+    },
+    "imdb_id": "tt1442437",
+    "last_updated": 1417662471733,
+    "num_seasons": 6,
+    "slug": "modern-family",
+    "title": "Modern Family",
+    "tvdb_id": "95011",
+    "year": "2009"
+  },
+  {
+    "_id": "tt0460681",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/86.38.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/86.38.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/86.38.jpg"
+    },
+    "imdb_id": "tt0460681",
+    "last_updated": 1417584516232,
+    "num_seasons": 10,
+    "slug": "supernatural",
+    "title": "Supernatural",
+    "tvdb_id": "78901",
+    "year": "2005"
+  },
+  {
+    "_id": "tt1632701",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/9617.32.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/9617.32.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/9617.32.jpg"
+    },
+    "imdb_id": "tt1632701",
+    "last_updated": 1417584514904,
+    "num_seasons": 4,
+    "slug": "suits",
+    "title": "Suits",
+    "tvdb_id": "247808",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0844441",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/21.15.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/21.15.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/21.15.jpg"
+    },
+    "imdb_id": "tt0844441",
+    "last_updated": 1417584538926,
+    "num_seasons": 7,
+    "slug": "true-blood",
+    "title": "True Blood",
+    "tvdb_id": "82283",
+    "year": "2008"
+  },
+  {
+    "_id": "tt0436992",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/198.54.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/198.54.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/198.54.jpg"
+    },
+    "imdb_id": "tt0436992",
+    "last_updated": 1417659365380,
+    "num_seasons": 10,
+    "slug": "doctor-who-2005",
+    "title": "Doctor Who (2005)",
+    "tvdb_id": "78804",
+    "year": "2005"
+  },
+  {
+    "_id": "tt1439629",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/5.19.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/5.19.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/5.19.jpg"
+    },
+    "imdb_id": "tt1439629",
+    "last_updated": 1417658676451,
+    "num_seasons": 5,
+    "slug": "community",
+    "title": "Community",
+    "tvdb_id": "94571",
+    "year": "2009"
+  },
+  {
+    "_id": "tt0096697",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/65.4.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/65.4.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/65.4.jpg"
+    },
+    "imdb_id": "tt0096697",
+    "last_updated": 1417584488011,
+    "num_seasons": 10,
+    "slug": "the-simpsons",
+    "title": "The Simpsons",
+    "tvdb_id": "71663",
+    "year": "1989"
+  },
+  {
+    "_id": "tt1856010",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/19657.16.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/19657.16.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/19657.16.jpg"
+    },
+    "imdb_id": "tt1856010",
+    "last_updated": 1417660800182,
+    "num_seasons": 2,
+    "slug": "house-of-cards-2013",
+    "title": "House of Cards (2013)",
+    "tvdb_id": "262980",
+    "year": "2013"
+  },
+  {
+    "_id": "tt1844624",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/11360.27.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/11360.27.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/11360.27.jpg"
+    },
+    "imdb_id": "tt1844624",
+    "last_updated": 1417658416150,
+    "num_seasons": 4,
+    "slug": "american-horror-story",
+    "title": "American Horror Story",
+    "tvdb_id": "250487",
+    "year": "2011"
+  },
+  {
+    "_id": "tt1826940",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/9635.17.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/9635.17.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/9635.17.jpg"
+    },
+    "imdb_id": "tt1826940",
+    "last_updated": 1417663069197,
+    "num_seasons": 4,
+    "slug": "new-girl",
+    "title": "New Girl",
+    "tvdb_id": "248682",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0182576",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/70.29.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/70.29.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/70.29.jpg"
+    },
+    "imdb_id": "tt0182576",
+    "last_updated": 1417659729039,
+    "num_seasons": 9,
+    "slug": "family-guy",
+    "title": "Family Guy",
+    "tvdb_id": "75978",
+    "year": "1999"
+  },
+  {
+    "_id": "tt1843230",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/10646.22.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/10646.22.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/10646.22.jpg"
+    },
+    "imdb_id": "tt1843230",
+    "last_updated": 1417581169347,
+    "num_seasons": 4,
+    "slug": "once-upon-a-time",
+    "title": "Once Upon a Time (2011)",
+    "tvdb_id": "248835",
+    "year": "2011"
+  },
+  {
+    "_id": "tt1839578",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/11367.17.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/11367.17.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/11367.17.jpg"
+    },
+    "imdb_id": "tt1839578",
+    "last_updated": 1417581687308,
+    "num_seasons": 4,
+    "slug": "person-of-interest",
+    "title": "Person of Interest",
+    "tvdb_id": "248742",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0149460",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/8.13.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/8.13.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/8.13.jpg"
+    },
+    "imdb_id": "tt0149460",
+    "last_updated": 1417660020517,
+    "num_seasons": 2,
+    "slug": "futurama",
+    "title": "Futurama",
+    "tvdb_id": "73871",
+    "year": "1999"
+  },
+  {
+    "_id": "tt0407362",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/66.4.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/66.4.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/66.4.jpg"
+    },
+    "imdb_id": "tt0407362",
+    "last_updated": 1417658641434,
+    "num_seasons": 2,
+    "slug": "battlestar-galactica-2003",
+    "title": "Battlestar Galactica (2003)",
+    "tvdb_id": "73545",
+    "year": "2003"
+  },
+  {
+    "_id": "tt0934814",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/72.7.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/72.7.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/72.7.jpg"
+    },
+    "imdb_id": "tt0934814",
+    "last_updated": 1417658669169,
+    "num_seasons": 5,
+    "slug": "chuck",
+    "title": "Chuck",
+    "tvdb_id": "80348",
+    "year": "2007"
+  },
+  {
+    "_id": "tt0121955",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/18.10.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/18.10.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/18.10.jpg"
+    },
+    "imdb_id": "tt0121955",
+    "last_updated": 1417584499786,
+    "num_seasons": 9,
+    "slug": "south-park",
+    "title": "South Park",
+    "tvdb_id": "75897",
+    "year": "1997"
+  },
+  {
+    "_id": "tt2364582",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/19185.13.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/19185.13.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/19185.13.jpg"
+    },
+    "imdb_id": "tt2364582",
+    "last_updated": 1417661939128,
+    "num_seasons": 2,
+    "slug": "marvels-agents-of-shield",
+    "title": "Marvel's Agents of S.H.I.E.L.D.",
+    "tvdb_id": "263365",
+    "year": "2013"
+  },
+  {
+    "_id": "tt0904208",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/125.10.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/125.10.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/125.10.jpg"
+    },
+    "imdb_id": "tt0904208",
+    "last_updated": 1417658664136,
+    "num_seasons": 7,
+    "slug": "californication",
+    "title": "Californication",
+    "tvdb_id": "80349",
+    "year": "2007"
+  },
+  {
+    "_id": "tt1405406",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/260.13.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/260.13.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/260.13.jpg"
+    },
+    "imdb_id": "tt1405406",
+    "last_updated": 1417584680301,
+    "num_seasons": 6,
+    "slug": "the-vampire-diaries",
+    "title": "The Vampire Diaries",
+    "tvdb_id": "95491",
+    "year": "2009"
+  },
+  {
+    "_id": "tt0455275",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/415.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/415.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/415.jpg"
+    },
+    "imdb_id": "tt0455275",
+    "last_updated": 1417582033185,
+    "num_seasons": 4,
+    "slug": "prison-break",
+    "title": "Prison Break",
+    "tvdb_id": "75340",
+    "year": "2005"
+  },
+  {
+    "_id": "tt2372162",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/20160.14.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/20160.14.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/20160.14.jpg"
+    },
+    "imdb_id": "tt2372162",
+    "last_updated": 1417581245217,
+    "num_seasons": 2,
+    "slug": "orange-is-the-new-black",
+    "title": "Orange Is the New Black",
+    "tvdb_id": "264586",
+    "year": "2013"
+  },
+  {
+    "_id": "tt1219024",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/73.40.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/73.40.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/73.40.jpg"
+    },
+    "imdb_id": "tt1219024",
+    "last_updated": 1417658665789,
+    "num_seasons": 7,
+    "slug": "castle-2009",
+    "title": "Castle (2009)",
+    "tvdb_id": "83462",
+    "year": "2009"
+  },
+  {
+    "_id": "tt1553656",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/19909.10.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/19909.10.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/19909.10.jpg"
+    },
+    "imdb_id": "tt1553656",
+    "last_updated": 1417584596100,
+    "num_seasons": 2,
+    "slug": "under-the-dome",
+    "title": "Under the Dome",
+    "tvdb_id": "264492",
+    "year": "2013"
+  },
+  {
+    "_id": "tt1124373",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/76.21.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/76.21.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/76.21.jpg"
+    },
+    "imdb_id": "tt1124373",
+    "last_updated": 1417584496572,
+    "num_seasons": 7,
+    "slug": "sons-of-anarchy",
+    "title": "Sons of Anarchy",
+    "tvdb_id": "82696",
+    "year": "2008"
+  },
+  {
+    "_id": "tt2356777",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/27434.19.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/27434.19.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/27434.19.jpg"
+    },
+    "imdb_id": "tt2356777",
+    "last_updated": 1417584539311,
+    "num_seasons": 1,
+    "slug": "true-detective",
+    "title": "True Detective",
+    "tvdb_id": "270633",
+    "year": "2014"
+  },
+  {
+    "_id": "tt1196946",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/5799.7.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/5799.7.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/5799.7.jpg"
+    },
+    "imdb_id": "tt1196946",
+    "last_updated": 1417662067647,
+    "num_seasons": 7,
+    "slug": "the-mentalist",
+    "title": "The Mentalist",
+    "tvdb_id": "82459",
+    "year": "2008"
+  },
+  {
+    "_id": "tt0813715",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/225.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/225.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/225.jpg"
+    },
+    "imdb_id": "tt0813715",
+    "last_updated": 1417660648293,
+    "num_seasons": 4,
+    "slug": "heroes",
+    "title": "Heroes",
+    "tvdb_id": "79501",
+    "year": "2006"
+  },
+  {
+    "_id": "tt2243973",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/16689.55.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/16689.55.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/16689.55.jpg"
+    },
+    "imdb_id": "tt2243973",
+    "last_updated": 1417660480262,
+    "num_seasons": 2,
+    "slug": "hannibal",
+    "title": "Hannibal",
+    "tvdb_id": "259063",
+    "year": "2013"
+  },
+  {
+    "_id": "tt2191671",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/16469.25.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/16469.25.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/16469.25.jpg"
+    },
+    "imdb_id": "tt2191671",
+    "last_updated": 1417659537161,
+    "num_seasons": 3,
+    "slug": "elementary",
+    "title": "Elementary",
+    "tvdb_id": "255316",
+    "year": "2012"
+  },
+  {
+    "_id": "tt0369179",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/78.7.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/78.7.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/78.7.jpg"
+    },
+    "imdb_id": "tt0369179",
+    "last_updated": 1417584558345,
+    "num_seasons": 10,
+    "slug": "two-and-a-half-men",
+    "title": "Two and a Half Men",
+    "tvdb_id": "72227",
+    "year": "2003"
+  },
+  {
+    "_id": "tt0285331",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/199.17.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/199.17.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/199.17.jpg"
+    },
+    "imdb_id": "tt0285331",
+    "last_updated": 1417658405770,
+    "num_seasons": 5,
+    "slug": "24",
+    "title": "24",
+    "tvdb_id": "76290",
+    "year": "2001"
+  },
+  {
+    "_id": "tt0367279",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/101.19.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/101.19.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/101.19.jpg"
+    },
+    "imdb_id": "tt0367279",
+    "last_updated": 1417658636720,
+    "num_seasons": 1,
+    "slug": "arrested-development",
+    "title": "Arrested Development",
+    "tvdb_id": "72173",
+    "year": "2003"
+  },
+  {
+    "_id": "tt1442449",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/6029.7.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/6029.7.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/6029.7.jpg"
+    },
+    "imdb_id": "tt1442449",
+    "last_updated": 1417584501598,
+    "num_seasons": 3,
+    "slug": "spartacus",
+    "title": "Spartacus",
+    "tvdb_id": "129261",
+    "year": "2010"
+  },
+  {
+    "_id": "tt1462059",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/6164.6.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/6164.6.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/6164.6.jpg"
+    },
+    "imdb_id": "tt1462059",
+    "last_updated": 1417659707229,
+    "num_seasons": 4,
+    "slug": "falling-skies",
+    "title": "Falling Skies",
+    "tvdb_id": "205281",
+    "year": "2011"
+  },
+  {
+    "_id": "tt0413573",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/93.14.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/93.14.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/93.14.jpg"
+    },
+    "imdb_id": "tt0413573",
+    "last_updated": 1417660361008,
+    "num_seasons": 10,
+    "slug": "greys-anatomy",
+    "title": "Grey's Anatomy",
+    "tvdb_id": "73762",
+    "year": "2005"
+  },
+  {
+    "_id": "tt2070791",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/16164.14.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/16164.14.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/16164.14.jpg"
+    },
+    "imdb_id": "tt2070791",
+    "last_updated": 1417583102112,
+    "num_seasons": 2,
+    "slug": "revolution-2012",
+    "title": "Revolution",
+    "tvdb_id": "258823",
+    "year": "2012"
+  },
+  {
+    "_id": "tt1358522",
+    "images": {
+      "poster": "http://slurm.trakt.us/images/posters/25.17.jpg",
+      "fanart": "http://slurm.trakt.us/images/fanart/25.17.jpg",
+      "banner": "http://slurm.trakt.us/images/banners/25.17.jpg"
+    },
+    "imdb_id": "tt1358522",
+    "last_updated": 1417584775331,
+    "num_seasons": 6,
+    "slug": "white-collar",
+    "title": "White Collar",
+    "tvdb_id": "108611",
+    "year": "2009"
+  }
+]

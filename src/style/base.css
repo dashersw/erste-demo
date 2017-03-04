@@ -1,0 +1,48 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    position: relative;
+}
+
+*:focus {
+    outline: 0;
+}
+
+body, p, h1, h2, h3, h4, menu, img {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+select,
+textarea {
+    -webkit-user-select: initial;
+}
+
+
+a { text-decoration: none; }
+
+html, body, view {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Helvetica Neue';
+    color: black;
+    font-weight: 200;
+    background: white;
+    font-size: 36px;
+}
+
+view {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform .35s;
+    z-index: 0;
+}

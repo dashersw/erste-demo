@@ -1,0 +1,1 @@
+cfg.PLATFORM = 'device';

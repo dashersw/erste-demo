@@ -1,0 +1,23 @@
+{
+  "name": "week-4",
+  "description": "",
+  "main": "src/index.js",
+  "authors": [
+    "Armagan Amcalar <armagan@amcalar.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dashersw/erste.js-demo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "erste.js": "^1.1.2",
+    "eventemitter2": "^3.0.0"
+  }
+}

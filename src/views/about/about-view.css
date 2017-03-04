@@ -1,0 +1,14 @@
+.about-view {
+    overflow: scroll;
+    bottom: 120px;
+    text-align: center;
+    padding-top: 360px;
+}
+
+.about-view h1 {
+    font-size: 120px;
+    font-weight: 100;
+    line-height: 130px;
+    padding-bottom: 40px;
+}
+
