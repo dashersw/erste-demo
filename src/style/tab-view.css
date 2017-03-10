@@ -23,11 +23,6 @@ tab-item {
     width: 50%;
 }
 
-tab-item:first-child,
-tab-item:nth-child(2) {
-    border-right: 1px solid #ccc;
-}
-
 tab-item.active {
     background: #eee;
 }

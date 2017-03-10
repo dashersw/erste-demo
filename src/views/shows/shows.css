@@ -1,7 +1,3 @@
-.shows-view {
-    bottom: 120px;
-}
-
 nav-bar {
     display: block;
     height: 90px;
@@ -59,18 +55,17 @@ show-title {
 }
 
 .detail-view {
-    top: 0px;
-    overflow: scroll;
-    background-size: cover;
     color: #ffffff;
     font-size: 10px;
 }
 
 detail-background {
     display: block;
-    height: 100%;
+    top: 0;
+    bottom: 0;
     width: 100%;
     background-size: cover;
+    position: absolute;
 }
 
 .detail-view .info {

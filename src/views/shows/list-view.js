@@ -1,18 +1,19 @@
 var ListViewModel = require('./list-view-model');
 var ListItem = require('./list-item');
 var DetailView = require('./detail-view');
-var __ = erste.locale.__;
+var View = require('erste').View;
+var PullToRefresh = require('erste').PullToRefresh;
+var InfiniteScroll = require('erste').InfiniteScroll;
+var __ = require('erste').locale.__;
 
-class ListView extends erste.View {
-    constructor() {
+class ListView extends View {
+    constructor(vm) {
         super();
-
-        this.className = 'list-view';
-
         this.model = new ListViewModel();
-        this.pullToRefresh = new erste.PullToRefresh();
-        this.infiniteScroll = new erste.InfiniteScroll();
+        this.pullToRefresh = new PullToRefresh();
+        this.infiniteScroll = new InfiniteScroll();
         this.infiniteScroll.endOfListText = __('End of List');
+        this.vm = vm;
 
         this.bindModelEvents();
     }
@@ -29,6 +30,8 @@ class ListView extends erste.View {
     };
 
     onAfterRender() {
+        super.onAfterRender();
+
         this.onLoaded();
 
         this.pullToRefresh.register(this.$('list-items-container'), this.$('list-items'));
@@ -37,15 +40,11 @@ class ListView extends erste.View {
     };
 
     onInfiniteScroll() {
-        setTimeout(() => {
-            this.model.loadMore();
-        }, 2000);
+        setTimeout(() => this.model.loadMore(), 2000);
     };
 
     onShouldRefresh() {
-        setTimeout(() => {
-            this.model.loadShows();
-        }, 2000);
+        setTimeout(() => this.model.loadShows(), 2000);
     };
 
     onLoaded() {
@@ -53,11 +52,9 @@ class ListView extends erste.View {
 
         this.pullToRefresh.reset();
 
-        this.showComponents = this.model.shows.map(show => new ListItem(show));
+        var listItems = this.model.shows.map(show => new ListItem(show));
 
-        var markup = this.showComponents.map(cmp => cmp.template()).join('');
-
-        this.$('list-items').innerHTML = markup;
+        this.$('list-items').innerHTML = listItems.join('');
         this.infiniteScroll.showSpinner();
     };
 
@@ -99,11 +96,13 @@ class ListView extends erste.View {
         }
     }
 
-    template_content() {
+    template() {
         return `
-${this.pullToRefresh}
-<list-items-container><list-items></list-items>
-${this.infiniteScroll}</list-items-container>
+<view class="list-view">
+    ${this.pullToRefresh}
+    <list-items-container><list-items></list-items>
+    ${this.infiniteScroll}</list-items-container>
+</view>
 `;
     }
 }

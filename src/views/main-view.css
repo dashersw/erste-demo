@@ -1,0 +1,7 @@
+tab-view views {
+    position: absolute;
+    top: 0;
+    bottom: 120px;
+    width: 100%;
+    z-index: 0;
+}

@@ -17,4 +17,4 @@ var onDeviceReady = () => {
 
 document.addEventListener('deviceready', onDeviceReady);
 
-if (cfg.PLATFORM == 'web') onDeviceReady();
+if (cfg.PLATFORM == 'browser') onDeviceReady();

@@ -1,34 +1,32 @@
-class DetailView extends erste.View {
+var View = require('erste').View;
+
+class DetailView extends View {
     constructor(show) {
         super();
 
-        this.className = 'detail-view';
         this.show = show;
-    }
-
-    get supportsBackGesture() {
-        return true;
+        this.supportsBackGesture = true;
     }
 
     onTap(e) {
         console.log(`tapping ${this.show.title}`);
     };
 
-
-    template_content() {
-        var imgFile = this.show['images']['fanart'].split('/').slice(-1);
-
+    template() {
         var show = this.show;
+        var imgFile = show['images']['fanart'].split('/').slice(-1);
 
         return `
-<detail-background
-    style="background-image: url(static/img/poster/${imgFile})">
-    <div class="info">
-        <p>Title: ${show.title}</p>
-        <p>Year: ${show.year}</p>
-        <p># of seasons: ${show.num_seasons}</p>
-    </div>
-</detail-background>
+<view class="detail-view">
+    <detail-background
+        style="background-image: url(static/img/poster/${imgFile})">
+        <div class="info">
+            <p>Title: ${show.title}</p>
+            <p>Year: ${show.year}</p>
+            <p># of seasons: ${show.num_seasons}</p>
+        </div>
+    </detail-background>
+</view>
 `;
     }
 

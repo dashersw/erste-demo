@@ -17,7 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "erste.js": "^1.1.2",
+    "erste.js": "^1.2.0",
     "eventemitter2": "^3.0.0"
   }
 }
