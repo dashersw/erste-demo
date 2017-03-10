@@ -1,4 +1,6 @@
-class ListItem extends erste.Component {
+var Component = require('erste').Component;
+
+class ListItem extends Component {
     constructor(show) {
         super();
 

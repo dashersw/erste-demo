@@ -1,3 +1,4 @@
+var erste = require('erste');
 var __ = erste.locale.__;
 
 class Sidebar extends erste.Sidebar {

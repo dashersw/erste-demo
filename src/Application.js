@@ -1,16 +1,19 @@
 var Sidebar = require('./views/sidebar/sidebar');
 var MainView = require('./views/main-view');
 var locale = require('./lib/locale');
+var erste = require('erste');
 
 class Application {
     constructor() {
-        this.vm = new erste.ViewManager();
+        const vm = new erste.ViewManager();
 
-        var mainView = new MainView(this.vm);
+        const sidebar = new Sidebar();
+        sidebar.vm = vm;
+        sidebar.on('switchView', e => mainView.activateItemByName(e.view));
+        sidebar.render(document.body);
 
-        mainView.render(document.body);
-
-        this.vm.setCurrentView(mainView);
+        var mainView = new MainView(vm);
+        vm.setCurrentView(mainView);
     }
 }
 

@@ -9,7 +9,7 @@ var watchify = require('watchify');
 module.exports = function compileJs(options, cb) {
     options = options || {};
 
-    var bundler = browserify('src/index.js', { debug: true, paths: ['src/'] }).transform(babel);
+    var bundler = browserify('src/index.js', { debug: true, paths: ['lib/erste.js/dist', 'lib/eventemitter2/lib', 'src/'] });
     var activeBundleOperationCount = 0;
 
     if (options.watch = true) {

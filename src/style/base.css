@@ -24,12 +24,11 @@ textarea {
 
 a { text-decoration: none; }
 
-html, body, view {
+html, body {
     top: 0;
     bottom: 0;
     width: 100%;
     position: absolute;
-    background: #ffffff;
     overflow: hidden;
 }
 
@@ -41,8 +40,14 @@ body {
     font-size: 36px;
 }
 
-view {
-    -webkit-overflow-scrolling: touch;
-    -webkit-transition: -webkit-transform .35s;
+view, [view] {
+    position: absolute;
+    transition: transform .35s;
     z-index: 0;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
 }

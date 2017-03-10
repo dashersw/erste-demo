@@ -17,7 +17,7 @@ var templates = require('./tasks/templates');
 var compileJs = require('./tasks/compilejs');
 
 var APP_ENV = process.env.APP_ENV || 'local';
-var APP_PLATFORM = process.env.APP_PLATFORM || 'web';
+var APP_PLATFORM = process.env.APP_PLATFORM || 'browser';
 
 gulp.task('default', function(callback) {
     runSequence('clean:before',
@@ -34,16 +34,26 @@ gulp.task('watch-css', function() {
 });
 
 gulp.task('compile-dev', function(cb) {
-    compileJs({watch: true}, cb);
+    compileJs({ watch: true }, cb);
 });
 
 gulp.task('lib-dev', function() {
-    var bowerMain = require('bower-main'),
-        bowerMainJavaScriptFiles = bowerMain('js', 'min.js', '');
-
-    return gulp.src(bowerMainJavaScriptFiles.normal).
-        pipe(concat('lib.js')).
+    return gulp.
+        src([
+            // './lib/erste.js/dist/erste.dev.js',
+            // './lib/erste.js/dist/erste.dev.js.map',
+            // './lib/eventemitter2/lib/eventemitter2.js',
+            // './lib/erste.js/dist/erste.min.js',
+            // './lib/erste.js/dist/erste.min.js.map'
+        ]).
         pipe(gulp.dest('www'));
+
+    // var bowerMain = require('bower-main'),
+    //     bowerMainJavaScriptFiles = bowerMain('js', 'min.js', '');
+
+    // return gulp.src(bowerMainJavaScriptFiles.normal).
+    //     pipe(concat('lib.js')).
+    //     pipe(gulp.dest('www'));
 });
 
 gulp.task('css-dev', function() {
@@ -90,12 +100,12 @@ gulp.task('process-html-dev', ['get-css'], function() {
     return gulp.src('src/index.html').
         pipe(htmlReplace({
             styles: css,
-            scripts: ['cordova.js', 'lib.js', 'index.js'],
+            scripts: ['cordova.js', 'index.js'],
             config: config
         })).
         pipe(gulp.dest('www')).
         // pipe(revReplace({manifest: manifest})).
-        pipe(htmlmin({collapseWhitespace: false})).
+        pipe(htmlmin({ collapseWhitespace: true })).
         pipe(gulp.dest('www'));
 });
 

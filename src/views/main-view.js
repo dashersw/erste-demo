@@ -1,10 +1,9 @@
-var __ = erste.locale.__;
-
 var ShowsView = require('./shows/shows-view');
 var AboutView = require('./about/about-view');
-var Sidebar = require('./sidebar/sidebar');
+var TabView = require('erste').TabView;
+var __ = require('erste').locale.__;
 
-class MainView extends erste.TabBar {
+class MainView extends TabView {
     constructor(vm) {
         super();
 
@@ -13,23 +12,10 @@ class MainView extends erste.TabBar {
 
         this.views = [this.aboutView, this.showsView];
 
-        this.showsView.navBar.menuButtonHandler = () => vm.toggleSidebar();
+        this.showsView.navBar.onMenuButtonTap = () => vm.toggleSidebar();
 
         this.hasSidebar = true;
-
-        this.sidebar = new Sidebar();
-        this.sidebar.vm = vm;
-
-        this.sidebar.on('switchView', e => this.activateItemByName(e.view));
-
-        this.sidebar.render(document.body);
     }
-
-    onAfterRender() {
-        super.onAfterRender();
-
-        this.activateItemByName('shows');
-    };
 
     template_items() {
         return `
@@ -38,6 +24,5 @@ class MainView extends erste.TabBar {
     };
 
 }
-
 
 module.exports = MainView;

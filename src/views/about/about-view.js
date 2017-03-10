@@ -1,21 +1,18 @@
-var __ = erste.locale.__;
+var __ = require('erste').locale.__;
+var erste = require('erste');
 
 class AboutView extends erste.View {
-    constructor() {
-        super();
-
-        this.className = 'about-view';
-    }
-
     onActivation() {
         if (cfg.PLATFORM == 'device')
             StatusBar.styleDefault();
     }
 
-    template_content() {
+    template() {
         return `
-<h1>${__('Top TV Show Posters')}</h1>
-<p>${__('An erste.js mobile app demo')}</p>
+<view class="about-view">
+    <h1>${__('Top TV Show Posters')}</h1>
+    <p>${__('An erste.js mobile app demo')}</p>
+</view>
 `;
     }
 }

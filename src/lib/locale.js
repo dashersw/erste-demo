@@ -1,3 +1,5 @@
+var erste = require('erste');
+
 erste.locale.setDictionary('tr', {
     '__name': 'Türkçe',
     'About': 'Hakkında',

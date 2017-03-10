@@ -1,7 +1,7 @@
 sidebar {
     background: #eee;
     position: absolute;
-    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
     display: block;
     height: 100%;
     top: 0;
