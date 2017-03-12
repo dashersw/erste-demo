@@ -1,7 +1,7 @@
-var ShowsModel = require('../../shows-model');
-var EventEmitter2 = require('EventEmitter2');
+import ShowsModel from '../../shows-model';
+import EventEmitter2 from 'EventEmitter2';
 
-class ListViewModel extends EventEmitter2 {
+export default class ListViewModel extends EventEmitter2 {
     constructor() {
         super();
 
@@ -51,5 +51,3 @@ function shuffle(arr) {
         arr[j] = tmp;
     }
 }
-
-module.exports = ListViewModel;

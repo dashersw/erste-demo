@@ -1,6 +1,6 @@
-var erste = require('erste');
+import {locale} from 'erste';
 
-erste.locale.setDictionary('tr', {
+locale.setDictionary('tr', {
     '__name': 'Türkçe',
     'About': 'Hakkında',
     'Shows': 'Diziler',
@@ -12,4 +12,4 @@ erste.locale.setDictionary('tr', {
     'Top Shows': 'En İyi Diziler'
 });
 
-erste.locale.setLanguage('en');
+export default lang => locale.setLanguage(lang);

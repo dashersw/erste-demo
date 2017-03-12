@@ -1,3 +1,5 @@
+import Application from './application';
+
 var onDeviceReady = () => {
     document.body.classList.add(cfg.PLATFORM);
     document.body.classList.add(cfg.ENV);
@@ -12,7 +14,7 @@ var onDeviceReady = () => {
         }, 2000);
     }
 
-    require('./Application');
+    new Application();
 }
 
 document.addEventListener('deviceready', onDeviceReady);

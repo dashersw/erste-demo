@@ -1,9 +1,9 @@
-var ShowsView = require('./shows/shows-view');
-var AboutView = require('./about/about-view');
-var TabView = require('erste').TabView;
-var __ = require('erste').locale.__;
+import ShowsView from './shows/shows-view';
+import AboutView from './about/about-view';
 
-class MainView extends TabView {
+import {TabView, __} from 'erste';
+
+export default class MainView extends TabView {
     constructor(vm) {
         super();
 
@@ -22,7 +22,4 @@ class MainView extends TabView {
 <tab-item class="active" data-view="about">${__('About')}</tab-item><tab-item data-view="shows">${__('Shows')}</tab-item>
 `;
     };
-
 }
-
-module.exports = MainView;

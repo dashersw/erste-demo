@@ -1,6 +1,6 @@
-var View = require('erste').View;
+import {View} from 'erste';
 
-class DetailView extends View {
+export default class DetailView extends View {
     constructor(show) {
         super();
 
@@ -38,5 +38,3 @@ class DetailView extends View {
         };
     };
 }
-
-module.exports = DetailView;

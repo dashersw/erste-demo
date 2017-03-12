@@ -1,13 +1,8 @@
-var angularTemplatecache = require('gulp-angular-templatecache');
 var changed = require('gulp-changed');
 var del = require('del');
 var filter = require('gulp-filter');
 var gulp = require('gulp');
-var plumber = require('gulp-plumber');
-var pug = require('gulp-pug');
 var rename = require('gulp-rename');
-var templates = require('./templates');
-var touch = require('touch');
 var vinylPaths = require('vinyl-paths');
 var watch = require('gulp-watch');
 

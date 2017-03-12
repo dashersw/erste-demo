@@ -1,4 +1,4 @@
-var xhr = require('./lib/xhr');
+import xhr from './lib/xhr';
 
 class ShowsModel {
     constructor() {
@@ -13,5 +13,5 @@ class ShowsModel {
     };
 }
 
-module.exports = new ShowsModel();
+export default new ShowsModel();
 

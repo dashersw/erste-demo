@@ -1,7 +1,6 @@
-var __ = require('erste').locale.__;
-var erste = require('erste');
+import {View, __} from 'erste';
 
-class AboutView extends erste.View {
+export default class AboutView extends View {
     onActivation() {
         if (cfg.PLATFORM == 'device')
             StatusBar.styleDefault();
@@ -16,5 +15,3 @@ class AboutView extends erste.View {
 `;
     }
 }
-
-module.exports = AboutView;

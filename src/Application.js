@@ -1,11 +1,14 @@
-var Sidebar = require('./views/sidebar/sidebar');
-var MainView = require('./views/main-view');
-var locale = require('./lib/locale');
-var erste = require('erste');
+import {ViewManager} from 'erste';
 
-class Application {
+import Sidebar from './views/sidebar/sidebar';
+import MainView from './views/main-view';
+import locale from './lib/locale';
+
+export default class Application {
     constructor() {
-        const vm = new erste.ViewManager();
+        locale('tr');
+
+        const vm = new ViewManager();
 
         const sidebar = new Sidebar();
         sidebar.vm = vm;
@@ -16,5 +19,3 @@ class Application {
         vm.setCurrentView(mainView);
     }
 }
-
-module.exports = new Application();

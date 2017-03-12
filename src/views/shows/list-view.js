@@ -1,12 +1,9 @@
-var ListViewModel = require('./list-view-model');
-var ListItem = require('./list-item');
-var DetailView = require('./detail-view');
-var View = require('erste').View;
-var PullToRefresh = require('erste').PullToRefresh;
-var InfiniteScroll = require('erste').InfiniteScroll;
-var __ = require('erste').locale.__;
+import ListViewModel from './list-view-model';
+import ListItem from './list-item';
+import DetailView from './detail-view';
+import {View, PullToRefresh, InfiniteScroll, __} from 'erste';
 
-class ListView extends View {
+export default class ListView extends View {
     constructor(vm) {
         super();
         this.model = new ListViewModel();
@@ -106,5 +103,3 @@ class ListView extends View {
 `;
     }
 }
-
-module.exports = ListView;

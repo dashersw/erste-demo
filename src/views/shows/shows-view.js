@@ -1,11 +1,7 @@
-var ListView = require('./list-view');
-var View = require('erste').View;
-var ViewManager = require('erste').ViewManager;
-var NavBar = require('erste').NavBar;
-var __ = require('erste').locale.__;
-var erste = require('erste');
+import ListView from './list-view';
+import {View, ViewManager, NavBar, __} from 'erste';
 
-class ShowsView extends View {
+export default class ShowsView extends View {
     constructor() {
         super();
 
@@ -39,5 +35,3 @@ class ShowsView extends View {
 </view>`;
     }
 }
-
-module.exports = ShowsView;

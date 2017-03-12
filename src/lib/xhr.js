@@ -8,7 +8,7 @@
  * It will be invoked with errors, data and status code.
  * @param {Object=} opt_context The context of the callback to be applied.
  */
-var xhr = function(options, opt_callback, opt_context) {
+export default (options, opt_callback, opt_context) => {
     var req = new XMLHttpRequest(),
         opts = options;
 
@@ -52,8 +52,6 @@ var xhr = function(options, opt_callback, opt_context) {
     req.withCredentials = opts.withCredentials;
     req.send(JSON.stringify(opts.data));
 };
-
-module.exports = xhr;
 
 /**
  * @typedef {{method, headers, url, data, withCredentials}}

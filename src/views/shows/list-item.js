@@ -1,6 +1,6 @@
-var Component = require('erste').Component;
+import {Component} from 'erste';
 
-class ListItem extends Component {
+export default class ListItem extends Component {
     constructor(show) {
         super();
 
@@ -17,7 +17,4 @@ style="background-image: url(static/img/cover/${imgFile})">
 </list-item>
 `;
     };
-
 }
-
-module.exports = ListItem;

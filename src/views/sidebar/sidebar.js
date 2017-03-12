@@ -1,7 +1,6 @@
-var erste = require('erste');
-var __ = erste.locale.__;
+import {Sidebar, __} from 'erste';
 
-class Sidebar extends erste.Sidebar {
+export default class extends Sidebar {
     template_items() {
         return `
 <sidebar-item class="sidebar-item-shows" data-view="shows"><i class="icon-signup"></i>${__('Shows')}
@@ -15,5 +14,3 @@ class Sidebar extends erste.Sidebar {
 `;
     };
 }
-
-module.exports = Sidebar;
