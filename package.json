@@ -1,11 +1,8 @@
 {
-  "name": "erste.js-demo",
+  "name": "erste-demo",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "bower install"
-  },
   "author": "Armagan Amcalar <armagan@amcalar.com>",
   "license": "MIT",
   "devDependencies": {
@@ -27,7 +24,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "erste": "^1.2.2",
+    "erste": "^1.2.5",
     "eventemitter2": "^3.0.2"
   }
 }
