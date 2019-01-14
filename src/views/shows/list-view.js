@@ -1,6 +1,7 @@
 import ListViewModel from './list-view-model';
 import ListItem from './list-item';
 import DetailView from './detail-view';
+
 import {View, PullToRefresh, InfiniteScroll, __} from 'erste';
 
 export default class ListView extends View {
