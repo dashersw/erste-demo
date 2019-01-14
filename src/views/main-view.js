@@ -1,5 +1,6 @@
 import ShowsView from './shows/shows-view';
 import AboutView from './about/about-view';
+import './main-view.css'
 
 import {TabView, __} from 'erste';
 

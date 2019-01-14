@@ -1,4 +1,5 @@
 import {View, __} from 'erste';
+import './about-view.css'
 
 export default class AboutView extends View {
     onActivation() {

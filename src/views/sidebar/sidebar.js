@@ -1,4 +1,5 @@
 import {Sidebar, __} from 'erste';
+import './sidebar.css'
 
 export default class extends Sidebar {
     template_items() {
