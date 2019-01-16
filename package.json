@@ -27,7 +27,6 @@
     "webpack-merge": "^4.1.5"
   },
   "dependencies": {
-    "erste": "^2.1.1",
-    "eventemitter2": "^3.0.2"
+    "erste": "^2.1.1"
   }
 }

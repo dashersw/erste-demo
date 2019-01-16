@@ -1,7 +1,7 @@
 import ShowsModel from '../../shows-model';
-import EventEmitter2 from 'eventemitter2';
+import EventEmitter from 'events';
 
-export default class ListViewModel extends EventEmitter2 {
+export default class ListViewModel extends EventEmitter {
     constructor() {
         super();
 
