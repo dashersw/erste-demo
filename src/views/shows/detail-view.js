@@ -1,22 +1,22 @@
 import {View} from 'erste';
 
 export default class DetailView extends View {
-    constructor(show) {
-        super();
+  constructor(show) {
+    super();
 
-        this.show = show;
-        this.supportsBackGesture = true;
-    }
+    this.show = show;
+    this.supportsBackGesture = true;
+  }
 
-    onTap(e) {
-        console.log(`tapping ${this.show.title}`);
-    };
+  onTap(e) {
+    console.log(`tapping ${this.show.title}`);
+  }
 
-    template() {
-        var show = this.show;
-        var imgFile = show['images']['fanart'].split('/').slice(-1);
+  template() {
+    var show = this.show;
+    var imgFile = show['images']['fanart'].split('/').slice(-1);
 
-        return `
+    return `
 <view class="detail-view">
     <detail-background
         style="background-image: url(static/img/poster/${imgFile})">
@@ -28,13 +28,13 @@ export default class DetailView extends View {
     </detail-background>
 </view>
 `;
-    }
+  }
 
-    get events() {
-        return {
-            'tap': {
-                '.detail-view': this.onTap
-            }
-        };
+  get events() {
+    return {
+      'tap': {
+        '.detail-view': this.onTap
+      }
     };
+  }
 }
